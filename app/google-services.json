@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829609785850",
+    "firebase_url": "https://dietguru-e344f.firebaseio.com",
+    "project_id": "dietguru-e344f",
+    "storage_bucket": "dietguru-e344f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829609785850:android:66fc841b541f6ef8690c43",
+        "android_client_info": {
+          "package_name": "com.srikanth.royal.dietg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829609785850-tg2l5p0c8dlstsm505e3bkcijmj99ees.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.srikanth.royal.dietg",
+            "certificate_hash": "9a4284c7c8dd2943ce66cc3fd644dffe9074ed5f"
+          }
+        },
+        {
+          "client_id": "829609785850-21d0u5geln2laqk5go7adbq6so3h9gjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs_HI87vEQr_mjWxGR6-e6Nh-mEjhi1WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829609785850-21d0u5geln2laqk5go7adbq6so3h9gjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

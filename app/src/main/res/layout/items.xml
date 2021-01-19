@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="20dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/Aimagei"
+    android:layout_alignParentRight="true"
+   android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/Aimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dglogo"
+        android:scaleType="centerCrop"
+       />
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/ATitle"
+            android:layout_toLeftOf="@id/Aimagei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/Asd"
+            android:layout_below="@id/ATitle"
+            android:layout_toLeftOf="@id/Aimagei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short description"
+            android:textSize="15sp"
+
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:maxLines="2"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:context=".Bmi">
+<TextView
+    android:id="@+id/bmi_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Calculate Bmi"
+    android:textSize="30sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:textStyle="bold"
+    android:textColor="#3F51B5"/>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button2"
+            android:hint="Weight"
+            android:inputType="number|numberDecimal"
+            android:textSize="20sp"
+            android:layout_below="@id/bmi_txt"/>
+
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weight"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button2"
+            android:hint="Height"
+            android:inputType="number|numberDecimal"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/calc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button1"
+            android:text="calculateBMI"
+            android:layout_below="@id/height"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

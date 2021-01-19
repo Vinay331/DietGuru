@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Caloriedetails">
+
+
+    <TextView
+        android:id="@+id/cresult_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/cresult_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cresult_txt"
+        />
+    <TextView
+        android:id="@+id/cresult_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cresult_txt1"
+        />
+    <TextView
+        android:id="@+id/cresult_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cresult_txt2"
+        />
+
+</RelativeLayout>

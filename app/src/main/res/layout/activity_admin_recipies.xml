@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/selected_image"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher_background" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selected_image"
+            android:hint="Title"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/short_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:hint="Short Description"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/short_description"
+            android:hint="description"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:text="Add"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button1"/>
+    </RelativeLayout>
+</ScrollView>

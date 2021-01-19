@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/calorie_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calorie Counter"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"/>
+        <EditText
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="weight"
+            android:inputType="numberDecimal|number"
+            android:background="@drawable/button2"
+            android:layout_below="@id/calorie_txt"
+            />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weight"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button2"
+            android:hint="height"
+            android:inputType="numberDecimal|number"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/height"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button2"
+            android:hint="age"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_below="@id/age"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="#303F9F"
+            />
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sex"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+          >
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="female" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/activities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activities"
+            android:layout_below="@id/gender"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="#303F9F"
+            />
+        <RadioGroup
+            android:id="@+id/activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activities"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/no_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="no exersice" />
+
+            <RadioButton
+                android:id="@+id/light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="light" />
+
+            <RadioButton
+                android:id="@+id/moderate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="moderate" />
+
+            <RadioButton
+                android:id="@+id/very_active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="very active" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity"
+            android:layout_centerHorizontal="true"
+            android:text="calorie"
+            android:background="@drawable/button1"/>
+
+     \
+
+
+    </RelativeLayout>
+</ScrollView>

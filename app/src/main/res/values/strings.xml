@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DietG</string>
+    <string name="facebook_application_id" translatable="false">120430702711604</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb120430702711604</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="very_severely_underweight">very severely underweight </string>
+    <string name="severely_underweight">severely underweight</string>
+    <string name="underweight">underweight</string>
+    <string name="normal">normal</string>
+    <string name="overweight">overweight</string>
+    <string name="obese_class_i">obese_class_i</string>
+    <string name="obese_class_ii">obese_class_ii</string>
+    <string name="obese_class_iii">obese_class_iii</string>
+    <string name="title_activity_useractivity">Useractivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+</resources>

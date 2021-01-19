@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/calculator"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+
+            app:cardBackgroundColor="#2196F3"
+
+
+            >
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/bmi"
+                        android:layout_width="0dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/bmici"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/calorie"
+                        android:layout_width="0dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/caci"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="2dp" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/calculator"
+            android:scrollbars="vertical"
+
+            />
+    </RelativeLayout>
